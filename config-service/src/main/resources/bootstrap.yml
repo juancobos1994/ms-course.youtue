@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/juancobos1994/ms-course-youtube.git
+          searchPaths: config-data
+          username: juancho_cobos@hotmail.com
+          password: Blanquito2018
+          default-label: "master"
+  security:
+    user:
+      name: root
+      password: s3cr3t  
